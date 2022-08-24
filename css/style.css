@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Edu VIC WA NT Beginner', sans-serif;
+}
+
+.container{
+    background: linear-gradient(rgb(154, 7, 184), white);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.calculadora{
+    min-height: 50vh;
+    min-width:20vw;
+    margin: 3%;
+    padding: 7%;
+    color: #fff;
+    background-color:black;
+    border: 1px solid rgb(250, 242, 242);
+    border-radius: 5%;
+    box-shadow: 1px 1px 10px 10px rgb(100, 99, 99);
+    
+}
+
+.display_calculadora{
+    text-align: center;
+    max-width: 30vw;
+    min-height: 10vh;
+    font-weight: bolder;
+    margin-bottom: 7%;
+    padding: 5%;
+    
+    
+}
+
+.display_calculadora{
+    width: 18vw;
+    min-height: 7vh;
+    background-color: white;
+    color: black;
+}
+
+h1{
+    font-size: max(50%, 20px) 
+    
+ }
+
+
+.botoes_calculadora{
+   display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+    
+    
+}
+
+button{
+    background-color: rgb(219, 49, 163);
+    font-weight: bolder;
+    min-height: 5vh;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px white;
+    
+    
+}
+
+button:hover{
+    background-color: rgb(78, 75, 75);
+    color: #fff;
+    cursor: pointer;
+}
+
+#item18{
+    background-color: blue;
+    grid-column:2/ span 2;
+}
+
+#item16{
+    grid-column-start:4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+#item2,
+#item3,
+#item4,
+#item8,
+#item12,
+#item16,
+#item1{
+    background-color: aqua;
+}
+
+
+footer{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+

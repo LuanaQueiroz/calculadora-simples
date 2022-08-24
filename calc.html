@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="calculadora">
+                <div class="display_calculadora" id="display">
+                    <h1>Calculadora</h1>
+                    <span class="displayText" id="text"></span>
+                </div>
+                    
+                <div class="botoes_calculadora" id="buttons">
+                    <button id="item1" onclick="clearUp()">C</button>
+                    <button id="item2">AC</button>
+                    <button id="item3" onclick="insertValues('/')">/</button>
+                    <button id="item4" onclick="insertValues('*')">X</button>
+                    <button id="item5" onclick="insertValues(7)">7</button>
+                    <button id="item6" onclick="insertValues(8)">8</button>
+                    <button id="item7" onclick="insertValues(9)">9</button>
+                    <button id="item8" onclick="insertValues('-')">-</button>
+                    <button id="item9" onclick="insertValues(4)">4</button>
+                    <button id="item10" onclick="insertValues(5)">5</button>
+                    <button id="item11" onclick="insertValues(6)">6</button>
+                    <button id="item12" onclick="insertValues('+')">+</button>
+                    <button id="item13" onclick="insertValues(1)">1</button>
+                    <button id="item14" onclick="insertValues(2)">2</button>
+                    <button id="item15" onclick="insertValues(3)">3</button>
+                    <button id="item16" onclick="calculator()">=</button>
+                    <button id="item17" onclick="insertValues(0)">0</button>
+                    <button id="item18" onclick="insertValues('.')">.</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+<footer>
+    <a href="https://github.com/LuanaQueiroz">
+        <p>Luana Queiroz</p>
+    </a>
+    <p>2022</p>
+</footer>
+</html>
